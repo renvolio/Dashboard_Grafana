@@ -34,5 +34,7 @@ a) Availability (POST /notes): Доля риска =  5% в мес. Всег
 Гарантии SLA от нашей компании должны быть чуть мягче, чем SLO, чтобы иметь так называемый буфер в виде бюджета ошибок.
 
 a) Availability (POST /notes, not 5xx): 94%
+
 б) Latency (POST /notes < 1s): 94%
+
 в) Latency (POST /notes < 5s): 99.9%
